@@ -2,7 +2,7 @@ Name: hyphen-fo
 Summary: Faroese hyphenation rules
 %define upstreamid 20040420
 Version: 0.%{upstreamid}
-Release: 5%{?dist}
+Release: 6%{?dist}
 Source: http://fo.speling.org/filer/hyph_fo_FO-20040420a.zip
 Group: Applications/Text
 URL: http://fo.speling.org/
@@ -43,6 +43,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20040420-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20040420-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
